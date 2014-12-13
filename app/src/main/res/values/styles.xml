@@ -1,0 +1,37 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base"/>
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">@color/blue_500</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/blue_700</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/green_200</item>
+
+        <!--<item name="android:actionBarStyle">@style/MyActionBar</item>
+        &lt;!&ndash; Support library compatibility &ndash;&gt;
+        <item name="actionBarStyle">@style/MyActionBar</item>-->
+    </style>
+
+    <style name="DisplayMessageTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">@color/green_500</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/green_700</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/light_blue_200</item>
+
+    </style>
+
+<!--    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:colorBackground">@drawable/Theme.Blue</item>
+        &lt;!&ndash; Support library compatibility &ndash;&gt;
+        <item name="background">@drawable/Theme.Blue</item>
+    </style>
+
+    <drawable name="Theme.Blue">#FF2AA4CD</drawable>-->
+</resources>
