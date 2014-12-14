@@ -21,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.i("My Blank App 1","OnCreate called from online");
+        Log.i("My Blank App 1","OnCreate");
 
         /*// Check if we're running on Android 5.0 or higher
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
