@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <style name="AppTheme" parent="AppTheme.Base"/>
     <!-- Base application theme. -->
@@ -14,6 +14,8 @@
 
         <item name="android:actionBarStyle">@style/MyActionBar</item>
         <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/blue_500</item>
+
     </style>
 
     <style name="DisplayMessageTheme" parent="AppTheme.Base">
@@ -23,6 +25,17 @@
         <item name="colorPrimaryDark">@color/green_700</item>
         <!--   theme UI controls like checkboxes and text fields -->
         <item name="colorAccent">@color/light_blue_200</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/green_500</item>
+    </style>
+
+    <style name="SearchTheme" parent="AppTheme.Base">
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">@color/orange_500</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/orange_700</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/indigo_200</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/orange_500</item>
     </style>
 
     <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar.Solid">
@@ -31,7 +44,7 @@
     </style>
 
     <style name="titleStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
-        <item name="android:textColor">@color/red_100</item>
+        <item name="android:textColor">@color/light_blue_50</item>
     </style>
 
 </resources>
