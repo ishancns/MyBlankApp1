@@ -16,12 +16,19 @@ public class DisplayMessageActivity extends ActionBarActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         Intent intent =getIntent();
         String message=intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+<<<<<<< HEAD
         //TextView textView=new TextView(this);
         //textView.setTextSize(40);
         //textView.setText(message);
         TextView displayMessageView=(TextView) findViewById(R.id.displayText);
         displayMessageView.setText(message);
 
+=======
+        TextView textView=new TextView(this);
+        textView.setTextSize(50);
+        textView.setText(message);
+        setContentView(textView);
+>>>>>>> origin/master
     }
 
     @Override
